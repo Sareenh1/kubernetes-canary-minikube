@@ -22,7 +22,7 @@ spec:
         image: canary-app:v1
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 3000
+        - containerPort: 3001
         livenessProbe:
           httpGet:
             path: /health
